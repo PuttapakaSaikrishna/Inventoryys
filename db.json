@@ -1,0 +1,918 @@
+{
+  "Orders": [
+    {
+      "id": "1",
+      "orderName": "Saikrishna",
+      "orderID": "202401",
+      "emailAddress": "skrishna694@gmail.com",
+      "productName": "Bluetooth Headphones",
+      "category": "Electronics",
+      "Mobile": "9550897975",
+      "Quantity": "20",
+      "OrderTotal": "45",
+      "PaymentStatus": "Completed",
+      "Paymenttype": "Online",
+      "FullfilmentStatus": "Not Completed",
+      "Discount": "",
+      "shippingcharge": "",
+      "Orderdate": "20/10/1997"
+    },
+    {
+      "id": "2",
+      "orderName": "Srikanth",
+      "orderID": "202402",
+      "emailAddress": "mark.jones@example.com",
+      "productName": "Coffee Maker",
+      "category": "Home Appliances",
+      "Mobile": "9550897975",
+      "Quantity": "20",
+      "OrderTotal": "45",
+      "PaymentStatus": "Completed",
+      "Paymenttype": "Online",
+      "FullfilmentStatus": "Not Completed",
+      "Discount": "",
+      "shippingcharge": ""
+    },
+    {
+      "id": "3",
+      "orderName": "Sandeep",
+      "orderID": "202403",
+      "emailAddress": "emily.brown@example.com",
+      "productName": "Yoga Mat",
+      "category": "Fitness",
+      "Mobile": "9550897975",
+      "Quantity": "20",
+      "OrderTotal": "45",
+      "PaymentStatus": "Completed",
+      "Paymenttype": "Online",
+      "FullfilmentStatus": "Not Completed",
+      "Discount": "",
+      "shippingcharge": ""
+    },
+    {
+      "id": "4",
+      "orderName": "Saikrishna",
+      "orderID": "202404",
+      "emailAddress": "skrishna694@gmail.com",
+      "Mobile": "9550897975",
+      "productName": "Desk Lamp",
+      "category": "Furniture",
+      "Quantity": "10",
+      "OrderTotal": "45",
+      "PaymentStatus": "Completed",
+      "Paymenttype": "Online",
+      "FullfilmentStatus": "Not Completed",
+      "Discount": "",
+      "shippingcharge": ""
+    }
+  ],
+  "register": [
+    {
+      "Profile": "Admin",
+      "Empid": "Emp001",
+      "Sex": "Male",
+      "Address": "Almasguda",
+      "Firstname": "Puttapaka",
+      "Lastname": "Saikrishna",
+      "Emailaddress": "skrishna694@gmail.com",
+      "Mobilenumber": "0683201871",
+      "Password": "24531395",
+      "confirmPassword": "24531395",
+      "id": "1",
+      "Status": "Active"
+    },
+    {
+      "Profile": "Sales",
+      "Empid": "Emp002",
+      "Sex": "Male",
+      "Address": "Almasguda",
+      "Firstname": "meghana",
+      "Lastname": "Puttapaka",
+      "Emailaddress": "Meghana@123",
+      "Mobilenumber": "24531395",
+      "Password": "24531395",
+      "confirmPassword": "24531395",
+      "id": "2",
+      "Status": "Active"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "productId": "P00123",
+      "productName": "Wireless Headphones",
+      "quantity": 50,
+      "category": "Electronics",
+      "subcategory": "Audio Devices",
+      "price": 199.99,
+      "productImage": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg",
+      "Rtlprice": "220.00",
+      "minprice": "180.00",
+      "bilprice": "210.00",
+      "status": "Available",
+      "description": "High-quality wireless headphones with noise-cancellation",
+      "specifications": "Bluetooth 5.0, 40 hours battery life, Over-ear",
+      "Sellingprice": "190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "2",
+      "productImage": "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productId": "P123456",
+      "productName": "IPhone16 Ultra",
+      "category": "Electronics",
+      "selectedCategoryId": "1",
+      "selectedSubcategory": "Mobiles",
+      "price": 1000,
+      "minprice": "1500",
+      "quantity": 10,
+      "Sellingprice": 2000,
+      "Rtlprice": 200,
+      "categoryId": "1",
+      "subCategory": "Mobiles",
+      "specification": "Warrenty:24 Years,Brand:Samsung",
+      "description": "Mobile,IPhone16 Ultra"
+    },
+    {
+      "id": "3",
+      "productId": "P06123",
+      "productName": "HUGO BOSS Print T-Shirts",
+      "quantity": 19,
+      "category": "Clothing",
+      "subcategory": "",
+      "price": 192.99,
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu7E7CefOJp7IYP2HWQIM4qAEtIFDapuSUqA&s",
+      "Rtlprice": "220.00",
+      "minprice": "180.00",
+      "bilprice": "210.00",
+      "status": "Available",
+      "description": "Discover the Print T-Shirts by HUGO BOSS for Men.",
+      "specifications": "Choose from elaborate designs and ingenious cuts. Shop now in the official HUGO BOSS online shop!",
+      "Sellingprice": "190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "4",
+      "productId": "P07123",
+      "productName": "Canon EOS R10 Mirrorless Camera",
+      "quantity": 49,
+      "category": "Electronics",
+      "subcategory": "Camera",
+      "price": 25092.99,
+      "productImage": "https://carmarthencameras.com/cdn/shop/products/screenshot_2022-05-24_at_09.27.11_1.png?v=1692147832",
+      "Rtlprice": "25220.00",
+      "minprice": "25180.00",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Canon EOS R10: The Ultimate Camera for Dynamic Photography",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "5",
+      "productId": "P87123",
+      "productName": "Superdry Everest Short Hooded Puffer Jacket Mustard",
+      "quantity": 49,
+      "category": "Clothing",
+      "subcategory": "Mens",
+      "price": 1950.00,
+      "productImage": "https://cdn.shopify.com/s/files/1/1485/6954/files/Everest-Short-Hooded-Jacket-Mustard_M5011743A-34K_1-Photoroom.jpg?v=1712569004",
+      "Rtlprice": "2220.00",
+      "minprice": "2080.00",
+      "bilprice": "2110.00",
+      "status": "Available",
+      "description": "Every memorable journey begins with a reliable jacket. Keeping you cosy with its hooded design and ribbed cuffs, this piece’s durable material and cushioned softness make it an outdoor wardrobe staple.",
+      "specifications": "",
+      "Sellingprice": "2150.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "6",
+      "productId": "P27123",
+      "productName": "White Sandwich Bread Thins 8 Slices",
+      "quantity": 689,
+      "category": "Grocery",
+      "subcategory": "Bakery",
+      "price": 15.99,
+      "productImage": "https://www.woolworths.co.za/images/elasticera/products/hero/2019-08-19/6009211226333_hero.jpg",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Our sandwich thins are high in fibre and ready sliced for your convenience. Each pack of sandwich thins contains eight slices that make four sandwiches.",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "7",
+      "productId": "P12323",
+      "productName": "Cadbury Dairy Milk Chocolate 80 g",
+      "quantity": 797,
+      "category": "Grocery",
+      "subcategory": "Choclates",
+      "price": 23.99,
+      "productImage": "https://assets.woolworthsstatic.co.za/Cadbury-Dairy-Milk-Chocolate-80-g-6001065600048.jpg?V=vSAm&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDE2LTA2LTMwLzYwMDEwNjU2MDAwNDhfaGVyby5qcGcifQ&",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Cadbury's range of chocolate brings joy to every palette, with delicious flavours and ingredients, these crafted bars has something for everyone.",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "8",
+      "productId": "P27190",
+      "productName": "Nestle Bar One 2 x 42g",
+      "quantity": 199,
+      "category": "Grocery",
+      "subcategory": "Choclates",
+      "price": 19.99,
+      "productImage": "https://cdn-prd-02.pnp.co.za/sys-master/images/hb0/hea/11003852455966/silo-product-image-v2-03Nov2022-180128-6009188006273-Straight_on-69634-3231_515Wx515H",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Get the right amount of energy for a 25-hour day with Nestlé Bar-One, a thick milk chocolate bar with a smooth caramel centre and malt-infused nougat.",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "9",
+      "productId": "P17190",
+      "productName": "Spindle Couch Three Seater",
+      "quantity": 71,
+      "category": "Furniture",
+      "subcategory": "",
+      "price": 40825.00,
+      "productImage": "https://houtlander.co.za/cdn/shop/products/spindle-couch-three-seater-sofa-houtlander-298696_800x.jpg?v=1685620164",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "This couch adds ‘huggable’ to the words you use when you think of Houtlander. ",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "10",
+      "productId": "P94190",
+      "productName": "Restonic Rebalance Firm Bed Set",
+      "quantity": 75,
+      "category": "Furniture",
+      "subcategory": "",
+      "price": 4799.00,
+      "productImage": "https://www.dialabed.co.za/media/catalog/product/cache/08d1bd64854e5aba604ea243bf4cc3ea/0/4/04041_restonic-rebalance-152_02.jpg",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "The Restonic Rebalance Pillow Top Plush Mattress is designed to provide optimal comfort and support. Its dual spring system and Prime Flex Foam work together to offer a luxurious sleep experience. ",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "11",
+      "productId": "P94133",
+      "productName": "Pure Soap Super Value 6-Pack",
+      "quantity": 465,
+      "category": "Beauty",
+      "subcategory": "",
+      "price": 185.00,
+      "productImage": "https://www.eislerchemist.com/cdn/shop/products/003_abc520a3-3fbc-4623-afcf-62a8c997a9e7_grande.jpg?v=1602017645",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Formulated with micronized Titanium dioxide which absorbs quickly and leaves no filmy, white residue, for all skin types",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "12",
+      "productId": "P94933",
+      "productName": "Cetaphil Daily Facial Moisturizer with SPF 50+ 1.7 Fl Oz",
+      "quantity": 365,
+      "category": "Beauty",
+      "subcategory": "",
+      "price": 799.00,
+      "productImage": "https://media.takealot.com/covers_tsins/48366243/48366243-1-zoom.jpg",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Formulated with micronized Titanium dioxide which absorbs quickly and leaves no filmy, white residue, for all skin types",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "13",
+      "productId": "P99933",
+      "productName": "75 QN900D Neo QLED 8K HDR Smart TV",
+      "quantity": 44,
+      "category": "Appliances",
+      "subcategory": "",
+      "price": 119999.00,
+      "productImage": "https://images.samsung.com/is/image/samsung/p6pim/za/qa75qn900dkxxa/gallery/za-qled-qn900d-qa75qn900dkxxa-541556360?$650_519_PNG$",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Samsung's most advanced AI-powered 8K processor creates our best overall 8K experience.",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "14",
+      "productId": "P24531",
+      "productName": "48-inch Built-in French Door Refrigerator",
+      "quantity": 90,
+      "category": "Appliances",
+      "subcategory": "",
+      "price": 11999.00,
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-TI15miRSPEAz7_cei0eTLM7fwkV1K2bIg&s",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "Our premier French Door Refrigerator, designed with never-before-seen capacity and functionality, is now even more appealing.",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "15",
+      "productId": "P24521",
+      "productName": "48-inch Built-in French Door Refrigerator",
+      "quantity": 670,
+      "category": "Toys",
+      "subcategory": "",
+      "price": 299.00,
+      "productImage": "https://m.media-amazon.com/images/I/71U06Q9P9YL.jpg",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "This Montessori-inspired wooden sorting and stacking toy is designed for toddlers aged 1 to 3 years",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "16",
+      "productId": "P24421",
+      "productName": "Mini Mike Set of 6 Push and Go Friction Powered Car Toys",
+      "quantity": 670,
+      "category": "Toys",
+      "subcategory": "",
+      "price": 709.00,
+      "productImage": "https://media.takealot.com/covers_images/b803d571bbe643f29c59c26fe4458bd8/s-pdpxl.file",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "This Montessori-inspired wooden sorting and stacking toy is designed for toddlers aged 1 to 3 years",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    },
+    {
+      "id": "17",
+      "productId": "P74421",
+      "productName": "Samsung Galaxy Tab S9 FE Plus 12.4 inch SM-X610 Wifi 128GB Gray",
+      "quantity": 30,
+      "category": "Electronics",
+      "subcategory": "Mobiles",
+      "price": 12709.00,
+      "productImage": "https://www.incredible.co.za/media/catalog/product/cache/3d78ec54f1d322ecf5dbccba720c6726/t/a/tab_s9fe___wifi__with_usp_and_s_pen_ecommerce_bb12.png",
+      "Rtlprice": "15.99",
+      "minprice": "14.99",
+      "bilprice": "25210.00",
+      "status": "Available",
+      "description": "This Montessori-inspired wooden sorting and stacking toy is designed for toddlers aged 1 to 3 years",
+      "specifications": "",
+      "Sellingprice": "25190.00",
+      "size": "XL",
+      "color": "Black"
+    }
+  ],
+  "storecustomer": [
+    {
+      "id": "1",
+      "CustomerId": "001",
+      "CustomerName": "Wireless Mouse",
+      "Total": "500",
+      "Quantity": "Computer Accessories",
+      "Date": "24/10/1997",
+      "Mobilenumber": "0683201871",
+      "EmailAddress": "skrishna694@gmail.com",
+      "ProductName": ""
+    }
+  ],
+  "Store": [
+    {
+      "id": "1",
+      "StoreId": 1,
+      "Mobilenumber": "0683201710",
+      "StoreName": "South Bazar",
+      "StoreAddress": "Almasguda",
+      "Status": "Active"
+    }
+  ],
+  "Brands": [
+    {
+      "id": "1",
+      "BrandId": 1,
+      "BrandName": "Puma",
+      "Status": "Active",
+      "Dealername": "Saikrishna"
+    }
+  ],
+  "Company": [
+    {
+      "id": "1",
+      "CompanyName": "Example Company",
+      "EmailAddress": "example@example.com",
+      "MobileNumber": "+1234567890",
+      "Country": "Country Name",
+      "Address": "123 Example Street, City, State, Postal Code",
+      "ChargeAmountPercentage": 10.5,
+      "VatChargePercentage": 7,
+      "Message": "Thank you for your business!",
+      "companyName": "GKP INFOTECH",
+      "emailAddress": "Krishna@gkpinfotch",
+      "mobileNumber": "0683201710",
+      "country": "South Africa",
+      "address": "Midrand",
+      "chargeAmountPercent": 10,
+      "vatChargePercent": 15,
+      "message": "GKP-INFOTECH is the top service provider based on Information Technology (IT), which ensures to provide essential solutions for software needs with premium results. We have a team of professionals who are highly unswerving and focused on first-class customer service to earn their fullest contentment. Our main aim is to bring surefire results through our hard work in order to develop enduring relationships with our customers.",
+      "additionalChargePercent": 2,
+      "language": "English",
+      "Currency": "Rand",
+      "Website": "www.gkpinfotech.com",
+      "Industry": "Retail",
+      "Timezone": "SOuthafrica (Sast)",
+      "Dateformat": "YYYY/MM/DD",
+      "Financialyear": "January-December",
+      "Companyregyear": "2024-06-06",
+      "CompanyId": "COMPANY ID",
+      "Companyidnumber": "123456789",
+      "TaxID": "PAYE Number",
+      "Taxidnumber": "123456789"
+    }
+  ],
+  "attributes": [
+    {
+      "id": "1",
+      "name": "Size",
+      "status": "active",
+      "values": [
+        {
+          "id": 1,
+          "value": "Large",
+          "status": "active"
+        },
+        {
+          "id": 2,
+          "value": "Medium",
+          "status": "active"
+        },
+        {
+          "id": 3,
+          "value": "Xl",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Color",
+      "status": "active",
+      "values": [
+        {
+          "id": 1,
+          "value": "red",
+          "status": "active"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "status": "active",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Mobiles",
+          "status": "active"
+        },
+        {
+          "id": 2,
+          "name": "Laptops",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Clothing",
+      "status": "active",
+      "subcategories": [
+        {
+          "id": 2,
+          "name": "Womens",
+          "status": "active"
+        },
+        {
+          "id": 3,
+          "name": "Mens",
+          "status": "inactive"
+        }
+      ]
+    },
+    {
+      "id": "44db",
+      "name": "Furniture",
+      "status": "active",
+      "subcategories": []
+    }
+  ],
+  "Phonebook": [
+    {
+      "id": "1",
+      "name": "Phyllis Gatlin",
+      "Title": "Bookstore",
+      "mobileNumber": "070 2860 5375",
+      "email": "PhyllisGatlin@spy.com",
+      "address": "52 Ilchester MYBSTER 9WX",
+      "image": "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "favorite": false
+    },
+    {
+      "id": "2",
+      "name": "Meghana",
+      "Title": "Clothing",
+      "mobileNumber": "080 1234 5678",
+      "email": "john.doe@example.com",
+      "address": "123 Elm Street",
+      "image": "https://bootdey.com/img/Content/avatar/avatar2.png",
+      "favorite": true
+    },
+    {
+      "id": "3",
+      "name": "Meghana",
+      "mobileNumber": "0683201710",
+      "email": "skrishna694@gmail.com",
+      "address": "l31,Midway gardens,Midrand,opp fire station",
+      "image": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "favorite": false,
+      "Title": "Manager"
+    },
+    {
+      "id": "4",
+      "name": "Rakesh",
+      "mobileNumber": "0683201710",
+      "email": "skrishna694@gmail.com",
+      "address": "l31,Midway gardens,Midrand,opp fire station",
+      "image": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "favorite": false,
+      "Title": "Kirana Saman"
+    }
+  ],
+  "Invoices": [
+    {
+      "id": "1",
+      "invoiceId": "INV-001",
+      "toName": "Meghana",
+      "toPhoneNumber": "1234567890",
+      "toAddress": "123 Elm Street, Springfield",
+      "fromName": "Jane Smith",
+      "fromPhoneNumber": "0987654321",
+      "fromAddress": "456 Oak Street, Springfield",
+      "companyName": "Tech Solutions",
+      "products": [
+        {
+          "productName": "Box",
+          "qty": 2,
+          "price": 200
+        },
+        {
+          "productName": "Laptop",
+          "qty": 3,
+          "price": 5000
+        }
+      ],
+      "total": 5600,
+      "discount": 0,
+      "date": "2024-09-25"
+    }
+  ],
+  "Customers": [
+    {
+      "id": "1",
+      "CustomerId": "CUS1727692392908",
+      "ProfileInformation": {
+        "id": "2",
+        "name": "SaiKrishna Puttapaka",
+        "email": "skrishna694@gmail.com",
+        "phoneNumber": "0683201710",
+        "password": "24531395",
+        "gender": "male",
+        "status": "Active"
+      },
+      "Address": [
+        {
+          "id": 1,
+          "name": "Meghana",
+          "mobile": "1234567890",
+          "pincode": "123456",
+          "locality": "Downtown",
+          "address": "123, 5th Avenue",
+          "city": "New York",
+          "state": "New York",
+          "landmark": "Near Central Park",
+          "alternatePhone": "0987654321",
+          "addressType": "home",
+          "status": true
+        }
+      ],
+      "Review": [],
+      "Wishlist": [],
+      "Cart": [
+        {
+          "id": "2",
+          "productImage": "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "productId": "P123456",
+          "productName": "IPhone16 Ultra",
+          "selectedCategoryId": "1",
+          "selectedSubcategory": "Mobiles",
+          "price": 1000,
+          "minprice": "1500",
+          "quantity": 1,
+          "Sellingprice": 2000,
+          "Rtlprice": 200,
+          "categoryId": "1",
+          "subCategory": "Mobiles",
+          "specification": "Warrenty:24 Years,Brand:Samsung",
+          "description": "Mobile,IPhone16 Ultra",
+          "selectedSize": "",
+          "selectedColor": "orange"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "CustomerId": "CUS1730724450299",
+      "ProfileInformation": {
+        "id": "11",
+        "name": "sandeep khande",
+        "email": "sandeepkhande@gmail.com",
+        "phoneNumber": "1234567890",
+        "password": "011880",
+        "gender": "male",
+        "status": "Active"
+      },
+      "Orders": [
+        {
+          "id": "2",
+          "productImage": "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "productId": "P123456",
+          "productName": "IPhone16 Ultra",
+          "selectedCategoryId": "1",
+          "selectedSubcategory": "Mobiles",
+          "price": 1000,
+          "minprice": "1500",
+          "quantity": 1,
+          "Sellingprice": 2000,
+          "Rtlprice": 200,
+          "categoryId": "1",
+          "subCategory": "Mobiles",
+          "specification": "Warrenty:24 Years,Brand:Samsung",
+          "description": "Mobile,IPhone16 Ultra",
+          "selectedColor": "orange",
+          "selectedSize": "",
+          "date": "2024-11-04T12:48:18.834Z"
+        }
+      ],
+      "Address": [],
+      "Review": [],
+      "Wishlist": [],
+      "Cart": []
+    }
+  ],
+  "Currencies": [
+    {
+      "id": "1",
+      "name": "India",
+      "symbol": "Rs"
+    }
+  ],
+  "Icustomers": [
+    {
+      "id": "1",
+      "customerType": "business",
+      "primaryContact": "",
+      "firstName": "Puttapaka",
+      "lastName": "Saikrishna",
+      "companyName": "GKP INFOTECH",
+      "displayName": "Saikrishna",
+      "emailAddress": "skrishna694@gmail.com",
+      "workPhone": "0683201710",
+      "mobile": "09550897975",
+      "remarks": "",
+      "currency": "Rands",
+      "language": "English",
+      "websiteUrl": "www.gkpinfotech.com",
+      "designation": "CEO",
+      "department": "Sales",
+      "attention": "",
+      "country": "India",
+      "region": "",
+      "address": "1240A High Land Drive",
+      "city": "Midrand",
+      "state": "Jonnesburg",
+      "pinCode": "1045",
+      "phone": "0683201710",
+      "faxNumber": "1234567891",
+      "billingAttention": "",
+      "billingCountry": "India",
+      "billingRegion": "",
+      "billingAddress": "1240A High Land Drive",
+      "billingCity": "Midrand",
+      "billingState": "Jonnesburg",
+      "billingPinCode": "1045",
+      "billingPhone": "0683201710",
+      "billingFaxNumber": "1234567891",
+      "contactPersons": [],
+      "comments": [
+        {
+          "id": 1,
+          "userId": "1",
+          "commentText": "hello",
+          "created": "2024-10-09T21:20:44.365Z"
+        }
+      ],
+      "statment": "",
+      "created": "2024-10-09",
+      "title": "Mr."
+    },
+    {
+      "id": "2",
+      "customerType": "business",
+      "primaryContact": "",
+      "firstName": "Meghana",
+      "lastName": "Timmayagari",
+      "companyName": "IT Services",
+      "displayName": "Meghana",
+      "emailAddress": "megahan@123",
+      "workPhone": "1245678978",
+      "mobile": "0683201710",
+      "remarks": "",
+      "currency": "Rs",
+      "language": "English",
+      "websiteUrl": "www.infotech.com",
+      "designation": "CEO",
+      "department": "IT",
+      "attention": "",
+      "country": "state",
+      "region": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "pinCode": "",
+      "phone": "",
+      "faxNumber": "",
+      "billingAttention": "",
+      "billingCountry": "",
+      "billingRegion": "",
+      "billingAddress": "",
+      "billingCity": "",
+      "billingState": "",
+      "billingPinCode": "",
+      "billingPhone": "",
+      "billingFaxNumber": "",
+      "contactPersons": [],
+      "statment": "",
+      "created": "2024-10-09",
+      "title": "Ms.",
+      "comments": []
+    }
+  ],
+  "Shipment": [
+    {
+      "customername": "Saikrishna",
+      "salesorder": "SO-001",
+      "packages": "PAC-12",
+      "shipmentorder": "SHP-001",
+      "Shipdate": "2024-10-15",
+      "carrier": "Truck",
+      "shiptracking": "DHL",
+      "shiptrackurl": "www.gksad.com",
+      "shippingcharge": "10",
+      "ShipNotes": "Delivery as soon as possible",
+      "shipStatus": "Not Shipped",
+      "sendnotification": false,
+      "id": "1"
+    }
+  ],
+  "Announcment": [
+    {
+      "id": "1",
+      "title": "South Africa Changes in Inventories",
+      "description": "The stocks of goods held by firms in South Africa increased by 9561 ZAR Million in the second quarter of 2024. Changes in Inventories in South Africa averaged 8349.97 ZAR Million from 1960 until 2024, reaching an all time high of 97294.00 ZAR Million in the first quarter of 2015 and a record low of -144645.00 ZAR Million in the third quarter of 2020",
+      "date": "2024-10-16"
+    }
+  ],
+  "Salesorder": [
+    {
+      "id": "1729853545360",
+      "salescustomername": "Meghana",
+      "salerorder": "SO-765",
+      "salesreference": "REF-75",
+      "salesorderdate": "2024-10-13",
+      "expectedshipment": "2024-10-31",
+      "paymentterms": "Net 30",
+      "deliverymethod": "truck",
+      "salesperson": "sonu",
+      "invoiced": "Not Generated",
+      "salesOrderStatus": "Not Confirmed",
+      "Payment": "Not Done",
+      "InvoicedAmount": "",
+      "Packed": "Not Yet",
+      "Shipped": "No Yet",
+      "saleproducts": [
+        {
+          "id": 1729853545360,
+          "productdetails": "mixer",
+          "productqty": 1,
+          "productrate": 2500,
+          "productamount": 2500,
+          "producttotal": 2755,
+          "productdiscount": 5,
+          "producttax": 15,
+          "productadjustments": 5
+        }
+      ]
+    }
+  ],
+  "Items": [],
+  "Manufactures": [],
+  "Braands": [],
+  "Units": [
+    {
+      "id": "ed54",
+      "unitName": "Box",
+      "symbol": "box",
+      "uqc": "box"
+    }
+  ],
+  "Packages": [
+    {
+      "id": "1730130227502",
+      "customername": "Saikrishna",
+      "salesorder": "SO-12",
+      "packageslip": "PAC-12",
+      "internalnotes": "test",
+      "Date": "2024-10-11",
+      "Dateofcreation": "2024-10-28",
+      "status": "Delivered"
+    },
+    {
+      "id": "1730133537626",
+      "customername": "Meghana",
+      "salesorder": "SO-13",
+      "packageslip": "PAC-13",
+      "internalnotes": "test",
+      "Date": "2024-10-17",
+      "Dateofcreation": "2024-10-28",
+      "status": "Not Shipped"
+    }
+  ]
+}
